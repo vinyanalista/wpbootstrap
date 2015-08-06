@@ -12,3 +12,16 @@ License URI: http://creativecommons.org/licenses/by-sa/3.0/
 
 Este tema simples foi criado usando o exemplo Jumbotron encontrado no site do Bootstrap http://getbootstrap.com/examples/jumbotron/
 */
+
+/* Bootstrap core CSS */
+
+/* Se preferir utilizar a própria cópia do Bootstrap, descomente a linha a seguir e comente a próxima */
+/*@import url('lib/bootstrap/3.3.5/css/bootstrap.min.css');*/
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css');
+
+/* Custom styles for this template */
+
+body { 
+    padding-top: 60px; 
+    padding-bottom: 40px; 
+}
