@@ -25,3 +25,17 @@ body {
     padding-top: 60px; 
     padding-bottom: 40px; 
 }
+
+/* lib/bootstrap/3.3.5/css/bootstrap.css, linha 4662 */
+/*.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus*/
+.navbar-inverse .navbar-nav > .current_page_item > a,
+.navbar-inverse .navbar-nav > .current_page_item > a:hover,
+.navbar-inverse .navbar-nav > .current_page_item > a:focus,
+.navbar-inverse .navbar-nav > .current_page_parent > a,
+.navbar-inverse .navbar-nav > .current_page_parent > a:hover,
+.navbar-inverse .navbar-nav > .current_page_parent > a:focus {
+    color: #fff;
+    background-color: #080808;
+}
