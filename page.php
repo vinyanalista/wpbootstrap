@@ -16,7 +16,7 @@
 
     </div>
     <div class="col-md-4">
-        <!-- Aqui virá a barra lateral -->
+        <?php get_sidebar(); ?>
     </div>
 </div>
 
