@@ -10,4 +10,13 @@ function scripts_do_template() {
 }
 
 add_action('wp_enqueue_scripts', 'scripts_do_template');
+
+if (function_exists('register_sidebar')) {
+    register_sidebar(array(
+        'before_title' => '<h3>',
+        'after_title' => '</h3>',
+        'before_widget' => '<div class="row"><div class="col-md-12">',
+        'after_widget' => '</div></div>',
+    ));
+}
 ?>
